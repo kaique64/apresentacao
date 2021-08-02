@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+    --font: 'Montserrat', sans-serif;
+    --purple: #7C3EBA;
+    --red: #ff0000;
+    --dark-purple: #663399;
+    --white: #ffffff;
+    --gray: #d6d6d6;
+    --green: #83FF83;
+    --light-red: #ff8383;
+}
+
+.carousel {
+  margin-left: 35px;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 464px) {
+  .carousel {
+    margin: 0 35px;
+  }
+}

@@ -1,25 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+/* eslint-disable no-unused-expressions */
+import React from "react";
+import "./styles/global.css";
+import "aos/dist/aos.css";
+import { ContactProvider } from "./contexts/ContactProvider";
+import Home from "./components/Home";
+import WhoAmI from "./components/WhoAmI";
+import Knowledge from "./components/Knowledge";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ContactProvider>
+      <Home />
+      <WhoAmI />
+      <Knowledge />
+      <Contact />
+      <Footer />
+    </ContactProvider>
   );
 }
 
