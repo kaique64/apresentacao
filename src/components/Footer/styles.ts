@@ -14,27 +14,23 @@ export const FooterContainer = styled.footer`
 
   h1 {
     font-family: var(--font);
-    font-size: 35px;
-    margin: 25px 29px;
+    font-size: 25px;
+    margin: 20px 29px;
   }
 
   p {
     font-family: var(--font);
     font-size: 25px;
-    margin: 15px 29px;
+    margin: 0 29px;
   }
 
   @media (max-width: 1250px) {
     h1 {
       display: none;
-      font-family: var(--font);
-      font-size: 30px;
     }
 
     p {
       display: none;
-      font-family: var(--font);
-      font-size: 22px;
     }
   }
 `;
@@ -46,7 +42,7 @@ export const SocialMediaContainer = styled.div`
   flex-direction: column;
 
   p {
-    font-size: 22px;
+    font-size: 18px;
   }
 `;
 
@@ -56,8 +52,8 @@ export const SocialMedia = styled.div`
   justify-content: center;
   border-radius: 100%;
   background: var(--white);
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   margin: 0 75px;
 
   @media (max-width: 1250px) {

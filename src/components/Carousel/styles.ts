@@ -10,7 +10,7 @@ export const Card = styled.div`
     ${(props) => props.theme.secondColor},
     ${(props) => props.theme.color}
   );
-  width: 520px;
+  width: 400px;
   height: 734px;
   margin: 10px;
   border-radius: 10px;
@@ -19,13 +19,13 @@ export const Card = styled.div`
   color: var(--white);
 
   h1 {
-    font-size: 35px;
+    font-size: 25px;
     margin: 10px 0;
   }
 
   p {
-    font-size: 18px;
-    max-width: 410px;
+    font-size: 15px;
+    max-width: 350px;
     width: 100%;
     text-align: center;
   }
@@ -44,7 +44,7 @@ export const Card = styled.div`
   }
 
   @media (max-width: 464px) {
-    width: 350px;
+    width: 300px;
     h1 {
       font-size: 28px;
     }
@@ -59,8 +59,8 @@ export const Circle = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 195px;
-  height: 207px;
+  width: 150px;
+  height: 150px;
   background-color: var(--white);
   border-radius: 100%;
 `;

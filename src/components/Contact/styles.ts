@@ -9,10 +9,10 @@ export const ContactForm = styled.form`
 `;
 
 export const MessageLabel = styled.label`
-  max-width: 1660px;
+  max-width: 1200px;
   width: 100%;
   font-family: var(--font);
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 600;
   margin-top: 25px;
   margin-bottom: 20px;
@@ -26,7 +26,7 @@ export const MessageInput = styled.textarea`
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  max-width: 1660px;
+  max-width: 1200px;
   width: 100%;
   height: 350px;
   border-radius: 10px;
@@ -51,11 +51,11 @@ export const SendButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 1660px;
+  max-width: 1200px;
   width: 100%;
-  height: 75px;
+  height: 65px;
   font-family: var(--font);
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   color: var(--white);
   margin-top: 30px;
@@ -79,7 +79,7 @@ export const TitlePositionContact = styled.div`
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-end;
-  max-width: 1700px;
+  max-width: 1300px;
   width: 100%;
 `;
 
@@ -88,9 +88,10 @@ export const WarnMessage = styled.p`
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 95%;
+  max-width: 1200px;
+  width: 100%;
   margin-top: 10px;
   font-family: var(--font);
-  font-size: 20px;
+  font-size: 18px;
   color: var(--red);
 `;

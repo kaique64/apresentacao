@@ -8,7 +8,7 @@ export const TitlePosition = styled.div`
       ? `
       align-items: flex-end;
       justify-content: flex-end;
-      max-width: 1700px;
+      max-width: 1250px;
       width: 100%
     `
       : `
@@ -20,10 +20,10 @@ export const TitlePosition = styled.div`
 
 export const Title = styled.h1`
   font-family: var(--font);
-  font-size: 40px;
+  font-size: 35px;
 
   @media (max-width: 1024px) {
-    font-size: 25px;
+    font-size: 18px;
   }
 
   @media (max-width: 464px) {

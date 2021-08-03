@@ -6,7 +6,7 @@ export const HeaderContainer = styled.header`
   align-self: center;
   justify-content: space-between;
   width: 100%;
-  height: 100px;
+  height: 75px;
   position: fixed;
   top: 0;
   z-index: 1;
@@ -25,13 +25,13 @@ export const ProfileContainer = styled.div`
   h1 {
     color: var(--white);
     font-family: var(--font);
-    font-size: 25px;
+    font-size: 18px;
     margin-left: 28px;
   }
 
   img {
-    width: 85px;
-    height: 85px;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
   }
 `;
@@ -56,7 +56,7 @@ export const Links = styled.div`
   a {
     color: var(--white);
     font-family: var(--font);
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 600;
     text-decoration: none;
     margin: 0 25px;
@@ -121,7 +121,7 @@ export const MenuLink = styled.div`
   a {
     color: var(--white);
     font-family: var(--font);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     text-decoration: none;
     margin: 10px 0;

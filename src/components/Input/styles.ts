@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const FormLabel = styled.label`
-  max-width: 1660px;
+  max-width: 1200px;
   width: 100%;
   font-family: var(--font);
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
   margin-top: 25px;
   margin-bottom: 20px;
@@ -18,9 +18,9 @@ export const FormInput = styled.input`
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  max-width: 1660px;
+  max-width: 1200px;
   width: 100%;
-  height: 80px;
+  height: 65px;
   border-radius: 10px;
   border: 2px solid
     ${(props) => (props.theme.error ? "var(--red)" : "var(--purple)")};

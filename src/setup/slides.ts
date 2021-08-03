@@ -51,7 +51,7 @@ const slide = [
     color: "#5fb64b",
     secondColor: "#539E43",
     description:
-      "Possuo conhecimento em NodeJS, conseguindo construir uma Rest API com suas respectivas funcionalidades, utilizando JavaScript ou TypeScript e Express. Sei utilizar banco de dados SQL(PostgreSQL, MySQL) e NoSQL(MongoDB) para a construção da API. Para banco de dados SQL utilizo os ORMs: TypeORM e Sequelize",
+      "Possuo conhecimento em NodeJS, conseguindo construir uma Rest API com suas respectivas funcionalidades, utilizando JavaScript ou TypeScript e Express. Sei utilizar banco de dados SQL (PostgreSQL, MySQL) e NoSQL (MongoDB) para a construção da API. Para banco de dados SQL utilizo os ORMs: TypeORM e Sequelize",
   },
   {
     id: 6,
@@ -60,7 +60,7 @@ const slide = [
     color: "#0067ac",
     secondColor: "#007ACC",
     description:
-      "Possuo conhecimento em TypeScript, conseguindo construir uma aplicação com suas respectivas funcionalidades, utilizando POO",
+      "Possuo conhecimento em TypeScript, conseguindo construir uma aplicação com suas respectivas funcionalidades, utilizando POO (Programação Orientada a Objetos).",
   },
 ];
 

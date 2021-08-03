@@ -45,9 +45,9 @@ export default function Header() {
           onClick={() => (display ? setDisplay(false) : setDisplay(true))}
         >
           {!display ? (
-            <MdMenu size={50} color="var(--white)" />
+            <MdMenu size={35} color="var(--white)" />
           ) : (
-            <MdClose size={50} color="var(--white)" />
+            <MdClose size={35} color="var(--white)" />
           )}
         </MenuBar>
       </HeaderContainer>

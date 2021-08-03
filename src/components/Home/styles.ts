@@ -8,7 +8,7 @@ export const HomeContainer = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 1068px;
+  height: 650px;
 
   @media (max-width: 1250px) {
     height: 750px;
@@ -21,7 +21,7 @@ export const HomeImg = styled.img`
   }
 
   @media (max-width: 1250px) {
-    height: 215px;
+    height: 350px;
   }
 `;
 
@@ -34,14 +34,14 @@ export const TextContainer = styled.div`
   width: 100%;
   font-family: var(--font);
   color: var(--white);
-  margin-right: 75px;
+  margin-left: 75px;
 
   h1 {
-    font-size: 50px;
+    font-size: 35px;
   }
 
   p {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   @media (max-width: 1250px) {

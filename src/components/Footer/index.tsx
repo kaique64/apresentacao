@@ -16,7 +16,7 @@ export default function Footer() {
       </SocialMediaContainer>
       <SocialMediaContainer>
         <SocialMedia>
-          <MdMap size={50} color="var(--purple)" />
+          <MdMap size={35} color="var(--purple)" />
         </SocialMedia>
         <h1> Endereço </h1>
         <p> Sumaré, SP </p>

@@ -9,7 +9,7 @@ export const WhoAmIContainer = styled.div`
   margin-top: 255px;
 
   img {
-    margin-right: 356px;
+    margin-left: 15px;
   }
 
   @media (max-width: 1250px) {
@@ -37,20 +37,17 @@ export const ContentContainer = styled.div`
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-end;
-  max-width: 650px;
+  max-width: 500px;
   width: 100%;
+  margin-left: 250px;
 
   p {
     font-family: var(--font);
-    font-size: 25px;
+    font-size: 15px;
     text-align: right;
   }
 
   @media (max-width: 1250px) {
-    margin: 0 25px;
-
-    p {
-      font-size: 20px;
-    }
+    margin: 0;
   }
 `;
