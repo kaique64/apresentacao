@@ -14,8 +14,8 @@ export const SpinnerLoader = styled.div`
   display: inline-block;
   position: relative;
   box-sizing: border-box;
-  width: 85px;
-  height: 85px;
+  width: 60px;
+  height: 60px;
   border-radius: 100%;
   border: none;
   animation: ${loadAnim} 1s linear infinite;
